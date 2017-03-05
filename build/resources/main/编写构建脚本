@@ -9,4 +9,12 @@
 13.4. 声明变量
 有两类可以在生成脚本中声明的变量： 局部变量和额外属性。
 
+13.4.2. 额外属性
+Gradle 的域模型中，所有增强的对象都可以容纳用户定义的额外的属性
+这包括但并不限于项目（project）、任务（task）和源码集（source set）。
+额外的属性可以通过所属对象的ext属性进行添加，读取和设置。或者，可以使用ext块同时添加多个属性。
+
+Could not set unknown property 'purpose' for source set 'main' of type
+org.grdle.api.internal.tasks.DefaultSourceSet.
+
 

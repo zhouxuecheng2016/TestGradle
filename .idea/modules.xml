@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BuildScriptBasic/BuildScriptBasic.iml" filepath="$PROJECT_DIR$/.idea/modules/BuildScriptBasic/BuildScriptBasic.iml" group="BuildScriptBasic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BuildScriptBasic/BuildScriptBasic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BuildScriptBasic/BuildScriptBasic_main.iml" group="BuildScriptBasic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BuildScriptBasic/BuildScriptBasic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BuildScriptBasic/BuildScriptBasic_test.iml" group="BuildScriptBasic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DependencyManagementBasics/DependencyManagementBasics.iml" filepath="$PROJECT_DIR$/.idea/modules/DependencyManagementBasics/DependencyManagementBasics.iml" group="DependencyManagementBasics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DependencyManagementBasics/DependencyManagementBasics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DependencyManagementBasics/DependencyManagementBasics_main.iml" group="DependencyManagementBasics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DependencyManagementBasics/DependencyManagementBasics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DependencyManagementBasics/DependencyManagementBasics_test.iml" group="DependencyManagementBasics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GraphicalUserInterface/GraphicalUserInterface.iml" filepath="$PROJECT_DIR$/.idea/modules/GraphicalUserInterface/GraphicalUserInterface.iml" group="GraphicalUserInterface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GraphicalUserInterface/GraphicalUserInterface_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GraphicalUserInterface/GraphicalUserInterface_main.iml" group="GraphicalUserInterface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GraphicalUserInterface/GraphicalUserInterface_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GraphicalUserInterface/GraphicalUserInterface_test.iml" group="GraphicalUserInterface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MoreAboutTasks/MoreAboutTasks.iml" filepath="$PROJECT_DIR$/.idea/modules/MoreAboutTasks/MoreAboutTasks.iml" group="MoreAboutTasks" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MoreAboutTasks/MoreAboutTasks_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MoreAboutTasks/MoreAboutTasks_main.iml" group="MoreAboutTasks" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MoreAboutTasks/MoreAboutTasks_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MoreAboutTasks/MoreAboutTasks_test.iml" group="MoreAboutTasks" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QuickStart/QuickStart.iml" filepath="$PROJECT_DIR$/.idea/modules/QuickStart/QuickStart.iml" group="QuickStart" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QuickStart/QuickStart_main.iml" filepath="$PROJECT_DIR$/.idea/modules/QuickStart/QuickStart_main.iml" group="QuickStart" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QuickStart/QuickStart_test.iml" filepath="$PROJECT_DIR$/.idea/modules/QuickStart/QuickStart_test.iml" group="QuickStart" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestTrade.iml" filepath="$PROJECT_DIR$/.idea/modules/TestTrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestTrade_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestTrade_main.iml" group="TestTrade" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestTrade_plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/TestTrade_plugin.iml" group="TestTrade" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestTrade_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestTrade_test.iml" group="TestTrade" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebApplicationQuickstart/WebApplicationQuickstart.iml" filepath="$PROJECT_DIR$/.idea/modules/WebApplicationQuickstart/WebApplicationQuickstart.iml" group="WebApplicationQuickstart" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebApplicationQuickstart/WebApplicationQuickstart_main.iml" filepath="$PROJECT_DIR$/.idea/modules/WebApplicationQuickstart/WebApplicationQuickstart_main.iml" group="WebApplicationQuickstart" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebApplicationQuickstart/WebApplicationQuickstart_test.iml" filepath="$PROJECT_DIR$/.idea/modules/WebApplicationQuickstart/WebApplicationQuickstart_test.iml" group="WebApplicationQuickstart" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WorkingWithFiles/WorkingWithFiles.iml" filepath="$PROJECT_DIR$/.idea/modules/WorkingWithFiles/WorkingWithFiles.iml" group="WorkingWithFiles" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WorkingWithFiles/WorkingWithFiles_main.iml" filepath="$PROJECT_DIR$/.idea/modules/WorkingWithFiles/WorkingWithFiles_main.iml" group="WorkingWithFiles" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WorkingWithFiles/WorkingWithFiles_test.iml" filepath="$PROJECT_DIR$/.idea/modules/WorkingWithFiles/WorkingWithFiles_test.iml" group="WorkingWithFiles" />
+    </modules>
+  </component>
+</project>

@@ -2,8 +2,7 @@ group 'com.vip.trade'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-
-sourceCompatibility = 1.5
+sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -12,3 +11,88 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
+
+task hello_start {
+    doLast {
+        println 'Hello World'
+    }
+}
+
+task hello_shorthand << {
+    println 'Hello World Short Hand'
+}
+
+//Build scripts are code
+task upper << {
+    String someString = 'mY_nAmE'
+    println "Original: " + someString
+    println "Upper case: " + someString.toUpperCase()
+}
+
+task count << {
+    4.times { println "$it " }
+}
+
+//Task dependencies
+//Declaration of dependencies between tasks
+task hello_dependencies << {
+    println 'Hello world!'
+}
+
+task intro(dependsOn: hello_dependencies) << {
+    println "I'm Gradle"
+}
+
+//Lazy dependsOn - the other task does not exist (yet)
+task taskX(dependsOn: 'taskY') << {
+    println 'taskX'
+}
+
+task taskY << {
+    println 'taskY'
+}
+
+//6.6. Dynamic tasks
+4.times {
+    counter -> task "task$counter" << {
+        println "I'm task number $counter"
+    }
+}
+
+//6.7. Manipulating existing tasks
+//通过API进行任务之间的通信--增加依赖
+task0.dependsOn task2, task3
+
+//通过API进行任务之间的通信--增加任务行为
+task hello_add_task_behavior << {
+    println 'Hello Earth'
+}
+
+hello_add_task_behavior.doFirst {
+    println 'Hello Venus'
+}
+
+hello_add_task_behavior.doLast {
+    println 'Hello Mars'
+}
+
+hello_add_task_behavior << {
+    println 'Hello Jupiter'
+}
+
+//其中 << 操作符 是 doLast 的简写方式
+//Shortcut notations
+task hello_shortcut_notations << {
+    println 'Hello world!'
+}
+
+hello_shortcut_notations.doLast {
+    println "Greetings from the $hello_shortcut_notations.name task."
+}
+
+//Extra task properties
+
+
+
+
+
