@@ -1,0 +1,9 @@
+rootProject.name = 'TestTrade'
+include 'BuildScriptBasic'
+include 'QuickStart'
+include 'DependencyManagementBasics'
+include 'WebApplicationQuickstart'
+include 'GraphicalUserInterface'
+include 'MoreAboutTasks'
+include 'WorkingWithFiles'
+

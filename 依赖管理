@@ -1,0 +1,22 @@
+
+compile
+编译范围依赖在所有的classpath中可用，同时它们也会被打包
+The dependencies required to compile the production source of the project.
+
+runtime
+runtime依赖在运行和测试系统的时候需要,但在编译的时候不需要.比如,你可能在编译的时候只需要JDBC API JAR,而只有在运行的时候才需要JDBC驱动实现
+The dependencies required by the production classes at runtime. By default, also includes the compile time dependencies.
+
+testCompile
+测试期编译需要的附加依赖
+The dependencies required to compile the test source of the project. By default, also includes the compiled production classes and the compile time dependencies.
+
+testRuntime
+测试运行期需要 The dependencies required to run the tests. By default, also includes the compile, runtime and test compile dependencies.
+
+不同的插件提供了不同的标准配置,你甚至也可以定义属于自己的配置项.具体可查看 章节 50.3, “依赖配置”
+Various plugins add further standard configurations.
+You can also define your own custom configurations to use in your build.
+Please see Section 50.3, “Dependency configurations” for the details of defining and
+customizing dependency configurations.
+

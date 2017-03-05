@@ -1,0 +1,56 @@
+group 'com.vip.trade'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+/**println name
+println project.name
+println path
+println description
+println projectDir
+println buildDir
+println ant
+*/
+def dest = "dest"
+
+task copy(type: Copy) {
+    from "source"
+    into dest
+}
+
+ext {
+    springVersion = "3.1.0.RELEASE"
+    emailNotification = "build@master.org"
+}
+
+sourceSets.all { ext.purpose = null }
+
+sourceSets {
+    main {
+        purpose = "production"
+    }
+    test {
+        purpose = "test"
+    }
+    plugin {
+        purpose = "production"
+    }
+}
+
+task printProperties << {
+    println springVersion
+    println emailNotification
+    sourceSets.matching { it.purpose == "production" }.each { println it.name }
+}
+
+
