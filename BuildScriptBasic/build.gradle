@@ -91,8 +91,78 @@ hello_shortcut_notations.doLast {
 }
 
 //Extra task properties
+//自定义属性不仅仅局限于任务上,还可以做更多事情.你可以阅读章节 13.4.2, “自定义属性”来了解更多内容.
+task myTask {
+    ext.myProperty = "myValue"
+}
 
+task printTaskProperties << {
+    println myTask.myProperty
+}
 
+//Using Ant Tasks
+task loadfile << {
+    def files = file('D:\\gradle\\workplace\\TestTrade\\BuildScriptBasic\\src\\main\\java\\com\\vip\\trade').listFiles().sort()
+    files.each {
+        File file ->
+            if (file.isFile()) {
+                ant.loadfile(srcFile: file, property: file.name)
+                println " *** $file.name ***"
+                println "${ant.properties[file.name]}"
+            }
+    }
+}
 
+//Using methods
+task checksum << {
+    fileList('D:\\gradle\\workplace\\TestTrade\\BuildScriptBasic\\src\\main\\java\\com\\vip\\trade')
+            .each {File file -> ant.checksum(file: file, property: "cs_$file.name")
+                                println "$file.name Checksum: ${ant.properties["cs_$file.name"]}"
+    }
+}
 
+File[] fileList(String dir) {
+    file(dir).listFiles({file -> file.isFile() } as FileFilter).sort()
+}
+
+task loadfile_method << {
+    fileList('D:\\gradle\\workplace\\TestTrade\\BuildScriptBasic\\src\\main\\java\\com\\vip\\trade')
+            .each {File file ->
+        ant.loadfile(srcFile: file, property: file.name)
+        println "I'm fond of $file.name"
+    }
+}
+
+//Default tasks
+
+defaultTasks 'clean1', 'run1'
+
+task clean1 << {
+    println 'Default Cleaning!'
+}
+
+task run1 << {
+    println 'Default Running!'
+}
+
+task other1 << {
+    println "I'm not a default task!"
+}
+
+//Configure by DAG
+task distribution << {
+    println "We build the zip with version=$version"
+}
+
+task release(dependsOn: 'distribution') << {
+    println 'We release now'
+}
+
+gradle.taskGraph.whenReady {taskGraph ->
+    if (taskGraph.hasTask(release)) {
+        version = '1.0'
+    } else {
+        version = '1.0-SNAPSHOT'
+    }
+}
 
