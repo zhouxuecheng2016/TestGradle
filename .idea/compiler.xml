@@ -19,19 +19,23 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BuildScriptBasic_main" target="1.5" />
-      <module name="BuildScriptBasic_test" target="1.5" />
+      <module name="BuildScriptBasic_main" target="1.8" />
+      <module name="BuildScriptBasic_test" target="1.8" />
       <module name="DependencyManagementBasics_main" target="1.5" />
       <module name="DependencyManagementBasics_test" target="1.5" />
       <module name="GraphicalUserInterface_main" target="1.5" />
       <module name="GraphicalUserInterface_test" target="1.5" />
       <module name="MoreAboutTasks_main" target="1.5" />
       <module name="MoreAboutTasks_test" target="1.5" />
-      <module name="QuickStart_main" target="1.5" />
-      <module name="QuickStart_test" target="1.5" />
+      <module name="QuickStart_main" target="1.8" />
+      <module name="QuickStart_test" target="1.8" />
+      <module name="TestGroovy_main" target="1.8" />
+      <module name="TestGroovy_test" target="1.8" />
       <module name="TestTrade_main" target="1.8" />
       <module name="TestTrade_plugin" target="1.8" />
       <module name="TestTrade_test" target="1.8" />
+      <module name="TestWeb_main" target="1.8" />
+      <module name="TestWeb_test" target="1.8" />
       <module name="WebApplicationQuickstart_main" target="1.8" />
       <module name="WebApplicationQuickstart_test" target="1.8" />
       <module name="WorkingWithFiles_main" target="1.8" />

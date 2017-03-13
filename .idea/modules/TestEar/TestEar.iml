@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":TestEar" external.linked.project.path="$MODULE_DIR$/../../../TestEar" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.vip.trade" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="javaeeApplication" name="JavaEE Application Gradle : TestEar-1.0-SNAPSHOT.ear">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="application.xml" url="file://$MODULE_DIR$/../../../out/artifacts/TestEar/exploded/TestEar-1.0-SNAPSHOT.ear/META-INF/application.xml" />
+        </descriptors>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../TestEar">
+      <excludeFolder url="file://$MODULE_DIR$/../../../TestEar/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../TestEar/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

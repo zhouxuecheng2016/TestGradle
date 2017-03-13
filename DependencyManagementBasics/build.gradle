@@ -2,13 +2,41 @@ group 'com.vip.trade'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'maven'
 
-sourceCompatibility = 1.5
+//Dependency Management Basics
+//依赖管理由如下两部分组成
+//(1):Gradle需要知道项目构建或运行所需要的一些文件,以便于找到这些需要的文件.
+//    我们称这些输入的文件为项目的依赖.
+//(2):你可能需要构建完成后自动上传到某个地方. 我们称这些输出为发布.
+
+sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
 }
 
+//使用Maven中央仓库
+//repositories {
+//    maven {
+//        url "http://repo.mycompany.com/maven2"
+//    }
+//}
+
+//使用Maven远程仓库
+//Ivy远程仓库
+// External dependencies
+
 dependencies {
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '3.6.7.Final'
     testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+//Declaring your dependencies
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file://localhost/tmp/myRepo/")
+        }
+    }
 }

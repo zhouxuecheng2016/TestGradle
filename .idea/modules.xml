@@ -17,10 +17,17 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/QuickStart/QuickStart.iml" filepath="$PROJECT_DIR$/.idea/modules/QuickStart/QuickStart.iml" group="QuickStart" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/QuickStart/QuickStart_main.iml" filepath="$PROJECT_DIR$/.idea/modules/QuickStart/QuickStart_main.iml" group="QuickStart" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/QuickStart/QuickStart_test.iml" filepath="$PROJECT_DIR$/.idea/modules/QuickStart/QuickStart_test.iml" group="QuickStart" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestEar/TestEar.iml" filepath="$PROJECT_DIR$/.idea/modules/TestEar/TestEar.iml" group="TestEar" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestGroovy/TestGroovy.iml" filepath="$PROJECT_DIR$/.idea/modules/TestGroovy/TestGroovy.iml" group="TestGroovy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestGroovy/TestGroovy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestGroovy/TestGroovy_main.iml" group="TestGroovy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestGroovy/TestGroovy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestGroovy/TestGroovy_test.iml" group="TestGroovy" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestTrade.iml" filepath="$PROJECT_DIR$/.idea/modules/TestTrade.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestTrade_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestTrade_main.iml" group="TestTrade" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestTrade_plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/TestTrade_plugin.iml" group="TestTrade" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestTrade_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestTrade_test.iml" group="TestTrade" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestWeb/TestWeb.iml" filepath="$PROJECT_DIR$/.idea/modules/TestWeb/TestWeb.iml" group="TestWeb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestWeb/TestWeb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestWeb/TestWeb_main.iml" group="TestWeb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestWeb/TestWeb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestWeb/TestWeb_test.iml" group="TestWeb" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebApplicationQuickstart/WebApplicationQuickstart.iml" filepath="$PROJECT_DIR$/.idea/modules/WebApplicationQuickstart/WebApplicationQuickstart.iml" group="WebApplicationQuickstart" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebApplicationQuickstart/WebApplicationQuickstart_main.iml" filepath="$PROJECT_DIR$/.idea/modules/WebApplicationQuickstart/WebApplicationQuickstart_main.iml" group="WebApplicationQuickstart" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebApplicationQuickstart/WebApplicationQuickstart_test.iml" filepath="$PROJECT_DIR$/.idea/modules/WebApplicationQuickstart/WebApplicationQuickstart_test.iml" group="WebApplicationQuickstart" />

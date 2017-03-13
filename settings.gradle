@@ -6,4 +6,7 @@ include 'WebApplicationQuickstart'
 include 'GraphicalUserInterface'
 include 'MoreAboutTasks'
 include 'WorkingWithFiles'
+include 'TestWeb'
+include 'TestEar'
+include 'TestGroovy'
 

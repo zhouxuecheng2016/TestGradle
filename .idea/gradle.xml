@@ -15,6 +15,9 @@
             <option value="$PROJECT_DIR$/GraphicalUserInterface" />
             <option value="$PROJECT_DIR$/MoreAboutTasks" />
             <option value="$PROJECT_DIR$/QuickStart" />
+            <option value="$PROJECT_DIR$/TestEar" />
+            <option value="$PROJECT_DIR$/TestGroovy" />
+            <option value="$PROJECT_DIR$/TestWeb" />
             <option value="$PROJECT_DIR$/WebApplicationQuickstart" />
             <option value="$PROJECT_DIR$/WorkingWithFiles" />
           </set>
