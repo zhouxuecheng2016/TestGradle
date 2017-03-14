@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/BuildScriptBasic" />
+            <option value="$PROJECT_DIR$/Command-Line" />
             <option value="$PROJECT_DIR$/DependencyManagementBasics" />
             <option value="$PROJECT_DIR$/GraphicalUserInterface" />
             <option value="$PROJECT_DIR$/MoreAboutTasks" />

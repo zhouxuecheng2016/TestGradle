@@ -9,4 +9,5 @@ include 'WorkingWithFiles'
 include 'TestWeb'
 include 'TestEar'
 include 'TestGroovy'
+include 'Command-Line'
 

@@ -1,0 +1,11 @@
+
+//Selecting which build to execute
+//gradle -q -p subdir hello
+//gradle -q -b subdir/myproject.gradle hello
+
+task hello << {
+    println "using build file '$buildFile.name' in '$buildFile.parentFile.name'."
+}
+
+
+

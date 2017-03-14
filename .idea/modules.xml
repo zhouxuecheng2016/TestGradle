@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BuildScriptBasic/BuildScriptBasic.iml" filepath="$PROJECT_DIR$/.idea/modules/BuildScriptBasic/BuildScriptBasic.iml" group="BuildScriptBasic" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BuildScriptBasic/BuildScriptBasic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BuildScriptBasic/BuildScriptBasic_main.iml" group="BuildScriptBasic" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BuildScriptBasic/BuildScriptBasic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BuildScriptBasic/BuildScriptBasic_test.iml" group="BuildScriptBasic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Command-Line/Command-Line.iml" filepath="$PROJECT_DIR$/.idea/modules/Command-Line/Command-Line.iml" group="Command-Line" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Command-Line/Command-Line_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Command-Line/Command-Line_main.iml" group="Command-Line" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Command-Line/Command-Line_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Command-Line/Command-Line_test.iml" group="Command-Line" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DependencyManagementBasics/DependencyManagementBasics.iml" filepath="$PROJECT_DIR$/.idea/modules/DependencyManagementBasics/DependencyManagementBasics.iml" group="DependencyManagementBasics" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DependencyManagementBasics/DependencyManagementBasics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DependencyManagementBasics/DependencyManagementBasics_main.iml" group="DependencyManagementBasics" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DependencyManagementBasics/DependencyManagementBasics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DependencyManagementBasics/DependencyManagementBasics_test.iml" group="DependencyManagementBasics" />

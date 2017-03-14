@@ -21,8 +21,12 @@
     <bytecodeTargetLevel>
       <module name="BuildScriptBasic_main" target="1.8" />
       <module name="BuildScriptBasic_test" target="1.8" />
-      <module name="DependencyManagementBasics_main" target="1.5" />
-      <module name="DependencyManagementBasics_test" target="1.5" />
+      <module name="Command-Line_main" target="1.8" />
+      <module name="Command-Line_test" target="1.8" />
+      <module name="CommandLine_main" target="1.8" />
+      <module name="CommandLine_test" target="1.8" />
+      <module name="DependencyManagementBasics_main" target="1.8" />
+      <module name="DependencyManagementBasics_test" target="1.8" />
       <module name="GraphicalUserInterface_main" target="1.5" />
       <module name="GraphicalUserInterface_test" target="1.5" />
       <module name="MoreAboutTasks_main" target="1.5" />

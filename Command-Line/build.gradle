@@ -1,0 +1,63 @@
+group 'com.vip.trade'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+description = 'The command line for the application'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+// Executing multiple tasks
+task compile1 << {
+    println 'compiling source'
+}
+
+task compileTest(dependsOn: compile1) << {
+    println 'compiling unit tests'
+}
+
+task test1(dependsOn: [compile1, compileTest]) << {
+    println 'running unit tests'
+}
+
+task dist(dependsOn: [compile1, test1]) << {
+    println 'building the distribution'
+
+}
+
+//1:Excluding tasks
+//2:Selecting which build to execute
+//3:Obtaining information about your build
+//Gradle provides several built-in tasks which show particular details of your build.
+//This can be useful for understanding the structure and dependencies of your build,
+//and for debugging problem
+/**
+ *(1)gradle -q projects
+ *(2)gradle -q tasks
+ *(3)gradle -q tasks --all
+ *
+ **/
+
+//tasks
+//4:Show task usage details
+/**
+ *(1)gradle help --task someTask
+ *(2)
+ *
+ */
+
+//5:Listing project dependencies
+/**
+ * 1:gradle -q api:dependencies
+ * 2:gradle -q api:dependencies --configuration testCompile
+ * 3:gradle -q api:dependencyInsight --dependency groovy
+ */
+

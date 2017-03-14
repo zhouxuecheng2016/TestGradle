@@ -2,6 +2,7 @@ group 'com.vip.trade'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'war'
+apply plugin: 'jetty'
 
 repositories {
     mavenCentral()
